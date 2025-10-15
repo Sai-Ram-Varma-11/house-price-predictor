@@ -1,0 +1,30 @@
+Task 01: House Price Prediction using Linear Regression 🏠
+
+Goal:
+Predict house prices based on square footage, bedrooms, and bathrooms.
+
+Tools Used:
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+
+Steps Performed:
+1. Imported and loaded the dataset (houses.csv)
+2. Split data into training and testing sets
+3. Trained a Linear Regression model
+4. Evaluated performance using MAE, MSE, and R² score
+5. Saved the trained model and prediction plot
+
+Results:
+- Mean Absolute Error (MAE): 2636.82
+- Mean Squared Error (MSE): 7200316.82
+- R² Score: 0.9955
+- Example prediction: For a 1400 sqft, 3 bed, 2 bath house → ₹168,407.96
+
+Files Included:
+- houses.csv
+- train_model.py
+- house_price_model.joblib
+- price_prediction_plot.png
+- README.txt
